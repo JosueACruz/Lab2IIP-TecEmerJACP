@@ -56,6 +56,7 @@
                             {{ Auth::user()->name }}
                         </a>
 
+
                         <div class="container">
                         <a type="button"  class="btn btn-primary ml-5" href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
