@@ -50,6 +50,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="{{ route('productos.index') }}">{{ __('Productos') }}</a>
+                                </li>
                             @endif
                         @else
                         <a class="btn btn-primary mr-3" href="#" role="button" >
